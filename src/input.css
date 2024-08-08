@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .name{
+     font-size: 60px;
+     
+    }
+}
+@layer components{
+    .card{
+        border-radius: 5px;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        background-color: #292d3a;
+        color: white;
+        height: 20rem;
+        padding: 40px;
+    }
+}
+@layer components{
+    .second{
+        background-color: #ff6557;
+        color: white;
+        border-radius: 2px;
+        padding: 5px;
+    }
+}
+@layer components{
+    .hour{
+       background-color: #23b674;
+      border-radius: 2px;
+      padding: 5px;
+    }
+}
+@layer components{
+    .minute{
+        background-color: #fcbb54;
+        border-radius: 2px;
+        padding: 5px;
+        color: white;
+        
+    }
+}
