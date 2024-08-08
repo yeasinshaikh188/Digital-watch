@@ -4,10 +4,11 @@ let seconds = document.getElementById("second");
 let m = document.getElementById("m");
 let container = document.getElementById("myWatch");
 let pname = document.getElementById("name");
+ 
 function myTime(){
     let myDate = new Date;
     let hour = (myDate.getHours() < 10) ? "0" + myDate.getHours() : myDate.getHours();
-    console.log(hour)
+    console.log(hour) 
     let Minute = (myDate.getMinutes() < 10) ? "0" + myDate.getMinutes() :myDate.getMinutes();
 
     let seconde = (myDate.getSeconds() < 10) ? "0" + myDate.getSeconds() : myDate.getSeconds();
